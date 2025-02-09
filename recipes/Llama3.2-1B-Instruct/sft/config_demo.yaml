@@ -34,7 +34,7 @@ output_dir: data/Llama3.2-1B-Open-R1-Distill
 overwrite_output_dir: true
 packing: true
 per_device_eval_batch_size: 4
-per_device_train_batch_size: 2
+per_device_train_batch_size: 4 #48GB GPU Memory
 push_to_hub: true
 report_to:
 - wandb
